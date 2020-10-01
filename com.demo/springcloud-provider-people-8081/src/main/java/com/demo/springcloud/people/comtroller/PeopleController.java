@@ -14,18 +14,21 @@ import java.util.List;
  * @description:
  */
 @RestController
-@RequestMapping("/people")
+@RequestMapping("/provider/people")
 public class PeopleController {
     @Autowired
     private PeopleService peopleService;
 
-    @PostMapping("/add")
+    @PostMapping("/save")
     @ResponseBody
-    public boolean add(People people) {
+    public People save(@RequestBody People people) {
+        if (people == null) {
+            return null;
+        }
         if (peopleService.addPeople(people) > 0) {
-            return true;
+            return people;
         } else
-            return false;
+            return null;
     }
 
     @GetMapping("/getById/{id}")
@@ -37,7 +40,7 @@ public class PeopleController {
         return peopleService.getById(id);
     }
 
-    @PostMapping("/list")
+    @GetMapping("/list")
     @ResponseBody
     public List<People> list() {
         HashMap<String, Object> map = new HashMap<String, Object>();

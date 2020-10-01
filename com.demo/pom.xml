@@ -10,6 +10,7 @@
     <modules>
         <module>springcloud-api</module>
         <module>springcloud-provider-people-8081</module>
+        <module>springcloud-customer-80</module>
     </modules>
     <!--打包方式-->
     <packaging>pom</packaging>
