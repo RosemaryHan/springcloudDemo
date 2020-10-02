@@ -1,9 +1,5 @@
 package com.demo.springcloud.api.domain;
 
-
-
-
-
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
