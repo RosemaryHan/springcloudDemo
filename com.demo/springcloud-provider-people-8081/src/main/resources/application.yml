@@ -1,9 +1,16 @@
 server:
   port: 8001
+
+
+feign:
+  hystrix:
+    enabled: true
+
 mybatis:
   mapper-locations: classpath:mybatis/mapper/*.xml
   type-aliases-package: com.demo.springcloud.api.domain
   config-location: classpath:mybatis/mapper-config.xml
+
 spring:
   application:
     name: people-servive
@@ -13,3 +20,10 @@ spring:
     url: jdbc:mysql://localhost:3306/workformyself?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&serverTimezone=GMT%2B8
     username: root
     password: hanroot
+
+eureka:
+  client:
+    fetch-registry: true #选择true表明自己不是服务注册中心
+    register-with-eureka: true #选择true表面自己是要注册进eureka注册中心
+    service-url:
+      defaultZone: http://eureka7003.com:7003/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7001.com:7001/eureka/

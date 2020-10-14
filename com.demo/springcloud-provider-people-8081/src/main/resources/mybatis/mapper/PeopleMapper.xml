@@ -3,37 +3,37 @@
 
 <mapper namespace="com.demo.springcloud.people.dao.PeopleDao">
     <insert id="addPeople" parameterType="com.demo.springcloud.api.domain.People">
- insert into people
+        insert into people
         (`id`,
-         `name`,
-         `age`,
-         `data_base`
-         )
-         values  (
-         #{id},
-         #{name},
-         #{age},
-         DATABASE()
-         )
+        `name`,
+        `age`,
+        `data_base`
+        )
+        values (
+        #{id},
+        #{name},
+        #{age},
+        DATABASE()
+        )
     </insert>
 
     <select id="getById" parameterType="String" resultType="com.demo.springcloud.api.domain.People">
         select `id`,
-         `name`,
-         `age`,
-         `data_base`
-         from
-         people
-         where id=#{value}
+        `name`,
+        `age`,
+        `data_base`
+        from
+        people
+        where id=#{value}
     </select>
 
     <select id="list" resultType="com.demo.springcloud.api.domain.People">
         select `id`,
-         `name`,
-         `age`,
-         `data_base`
-         from
-         people
+        `name`,
+        `age`,
+        `data_base`
+        from
+        people
 
     </select>
 

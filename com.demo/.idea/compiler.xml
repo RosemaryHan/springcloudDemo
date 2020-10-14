@@ -6,9 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-customer-80" />
         <module name="springcloud-api" />
+        <module name="springcloud-eureka-7002 (1)" />
         <module name="springcloud-provider-people-8081" />
+        <module name="springcloud-eureka-7002" />
+        <module name="springcloud-seriv" />
+        <module name="eureka-7000" />
+        <module name="com.demo" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="com.demo" options="-parameters" />
+      <module name="eureka-7000" options="-parameters" />
+      <module name="springcloud-eureka-7002" options="-parameters" />
+      <module name="springcloud-eureka-7002 (1)" options="-parameters" />
+    </option>
   </component>
 </project>

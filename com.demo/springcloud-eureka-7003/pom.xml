@@ -8,26 +8,15 @@
         <version>2.3.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example.demo</groupId>
-    <artifactId>eureka-7002</artifactId>
+    <groupId>com.example.demo.springcloud-eureka-7003</groupId>
+    <artifactId>springcloud-eureka-7003</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eureka-7002</name>
+    <name>springcloud-eureka-7003</name>
     <description>Demo project for Spring Boot</description>
 
-    <groupId>com.demo</groupId>
-    <artifactId>springcloudDemo</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>springcloud-api</module>
-        <module>springcloud-provider-people-8081</module>
-        <module>springcloud-customer-80</module>
-        <module>springcloud-Eureka-7002</module>
-        <module>springcloud-Eureka-7003</module>
-        <module>eureka-7000</module>
-    </modules>
-    <!--打包方式-->
-    <packaging>pom</packaging>
     <properties>
+        <java.version>1.8</java.version>
+        <spring-cloud.version>Hoxton.SR8</spring-cloud.version>
     </properties>
 
     <dependencies>

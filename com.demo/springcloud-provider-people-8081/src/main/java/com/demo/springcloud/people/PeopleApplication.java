@@ -2,7 +2,7 @@ package com.demo.springcloud.people;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @author: Rosemary
@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
  * @description:启动类
  */
 @SpringBootApplication
+@EnableEurekaClient
 public class PeopleApplication {
     public static void main(String[] args) {
         SpringApplication.run(PeopleApplication.class, args);

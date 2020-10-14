@@ -1,20 +1,16 @@
-package com.demo.springcloud;
+package com.demo.springcloudeureka7000.eureka7000;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
-/**
- * @author: Rosemary
- * @date: 2020/10/1 23:53
- * @description: 注册中心
- */
 @SpringBootApplication
 @EnableEurekaServer
-public class EurekaServer_7001 {
+public class Eureka7000Application {
+
     public static void main(String[] args) {
-        SpringApplication.run(EurekaServer_7001.class, args);
-        System.out.println("Eureka服务器启动成功！");
+        SpringApplication.run(Eureka7000Application.class, args);
+        System.out.println("7001Eureka启动成功！！！！！！");
     }
 
 }
