@@ -15,6 +15,8 @@
     <version>1.0.0-SNAPSHOT</version>
     <modules>
         <module>cloud-provider-payment8001</module>
+        <module>cloud-customer-order80</module>
+        <module>cloud-api-common</module>
     </modules>
     <name>cloud2020</name>
     <description>Demo project for Spring Boot</description>
