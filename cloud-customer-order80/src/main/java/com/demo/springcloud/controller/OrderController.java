@@ -19,7 +19,9 @@ import javax.annotation.Resource;
 @RestController
 public class OrderController {
 
-    public static final String PAYMENT_URL = "http://localhost:8001";
+    //    public static final String PAYMENT_URL = "http://localhost:8001"; 单机版的
+    //为了使用集群，将这部分路径改写，从eureka里面中获取
+    public static final String PAYMENT_URL = "http://cloud-payment-service";
 
     @Resource
     private RestTemplate restTemplate;

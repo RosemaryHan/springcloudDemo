@@ -17,6 +17,9 @@
         <module>cloud-provider-payment8001</module>
         <module>cloud-customer-order80</module>
         <module>cloud-api-common</module>
+        <module>cloud-eureka-7001</module>
+        <module>cloud-eureka-7002</module>
+        <module>cloud-privider-payment8002</module>
     </modules>
     <name>cloud2020</name>
     <description>Demo project for Spring Boot</description>

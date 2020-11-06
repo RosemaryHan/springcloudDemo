@@ -1,8 +1,8 @@
-package com.demo.springcloud.com.demo.springcloud.controller;
+package com.demo.springcloud.controller;
 
 import com.demo.entity.CommonResult;
 import com.demo.entity.Payment;
-import com.demo.springcloud.com.demo.springcloud.service.PaymentService;
+import com.demo.springcloud.service.PaymentService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 

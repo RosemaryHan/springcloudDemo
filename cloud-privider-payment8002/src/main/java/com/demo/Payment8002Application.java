@@ -1,4 +1,4 @@
-package com.demo.springcloud;
+package com.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,16 +6,15 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @author Rosemary
- * @title: PaymentApplication
+ * @title: Payment8002Application
  * @projectName cloud2020
- * @description: 支付者启动类
- * @date 2020/11/39:29
+ * @description: TODO
+ * @date 2020/11/616:04
  */
 @SpringBootApplication
 @EnableEurekaClient
-public class PaymentApplication {
+public class Payment8002Application {
     public static void main(String[] args) {
-        SpringApplication.run(PaymentApplication.class, args);
-        System.out.println("启动成功");
+        SpringApplication.run(Payment8002Application.class, args);
     }
 }
