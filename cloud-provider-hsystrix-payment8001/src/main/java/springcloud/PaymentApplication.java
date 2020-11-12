@@ -1,24 +1,22 @@
-package com.demo.springcloud;
+package springcloud;
 
-import myribbon.MyselfRule;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.ribbon.RibbonClient;
 
 /**
  * @author Rosemary
- * @title: OrderApplication
+ * @title: PaymentApplication
  * @projectName cloud2020
- * @description: 消费类80端口
- * @date 2020/11/415:40
+ * @description: 支付者启动类
+ * @date 2020/11/39:29
  */
 @SpringBootApplication
 @EnableEurekaClient
-@RibbonClient(name = "cloud-payment-service", configuration = MyselfRule.class)
-public class OrderApplication {
+public class PaymentApplication {
     public static void main(String[] args) {
-        SpringApplication.run(OrderApplication.class, args);
+        SpringApplication.run(PaymentApplication.class, args);
         System.out.println("启动成功");
     }
 }
