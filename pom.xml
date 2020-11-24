@@ -26,6 +26,8 @@
         <module>cloud-customerconsul-order80</module>
         <module>cloud-costomerFeign-order80</module>
         <module>cloud-provider-hsystrix-payment8001</module>
+        <module>cloud-customer-feign-hsytrix-order80</module>
+        <module>cloud-customer-hystrix-dashboard9001</module>
     </modules>
     <name>cloud2020</name>
     <description>Demo project for Spring Boot</description>
