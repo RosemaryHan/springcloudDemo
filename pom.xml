@@ -28,6 +28,8 @@
         <module>cloud-provider-hsystrix-payment8001</module>
         <module>cloud-customer-feign-hsytrix-order80</module>
         <module>cloud-customer-hystrix-dashboard9001</module>
+        <module>cloud-gateway-gateway9527</module>
+        <module>cloud-gateway9527-code-gateway</module>
     </modules>
     <name>cloud2020</name>
     <description>Demo project for Spring Boot</description>
