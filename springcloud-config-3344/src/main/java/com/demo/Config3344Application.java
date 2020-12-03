@@ -8,7 +8,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
  * @author Rosemary
  * @title: Config3344Application
  * @projectName cloud2020
- * @description: TODO
+ * @description: 设置总关
  * @date 2020/11/3015:24
  */
 @SpringBootApplication
