@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
  * @author Rosemary
  * @title: MyselfRule
  * @projectName cloud2020
- * @description: TODO
+ * @description: 返回对象
  * @date 2020/11/1114:47
  */
 @Configuration

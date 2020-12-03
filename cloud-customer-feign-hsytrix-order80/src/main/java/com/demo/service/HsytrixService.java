@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
  * @author Rosemary
  * @title: HsytrixService
  * @projectName cloud2020
- * @description: TODO
+ * @description: 转例调用
  * @date 2020/11/1817:21
  */
 @Component

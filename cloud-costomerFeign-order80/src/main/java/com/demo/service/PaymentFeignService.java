@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.PathVariable;
  * @author Rosemary
  * @title: PaymentFeignService
  * @projectName cloud2020
- * @description: TODO
+ * @description: 获取ID
  * @date 2020/11/1116:52
  */
 @Component

@@ -17,3 +17,4 @@ public class CloudConfig3355Application {
         SpringApplication.run(CloudConfig3355Application.class, args);
     }
 }
+

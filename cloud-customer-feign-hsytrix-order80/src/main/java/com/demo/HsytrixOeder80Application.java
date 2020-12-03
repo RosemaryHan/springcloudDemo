@@ -6,9 +6,9 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * @author Rosemary
- * @title: HsytrixOeder80Application
+ * @title: HsytrixOeder
  * @projectName cloud2020
- * @description: TODO
+ * @description: 负载均衡配置
  * @date 2020/11/1817:14
  */
 @SpringBootApplication

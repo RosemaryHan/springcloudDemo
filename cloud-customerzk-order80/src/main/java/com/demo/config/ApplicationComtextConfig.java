@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
  * @author Rosemary
  * @title: ApplicationComtextConfig
  * @projectName cloud2020
- * @description: TODO
+ * @description: RestTemplate设置
  * @date 2020/11/416:50
  */
 @Configuration

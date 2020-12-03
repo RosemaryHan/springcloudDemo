@@ -8,7 +8,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * @author Rosemary
  * @title: Payment8005Application
  * @projectName cloud2020
- * @description: TODO
+ * @description: 集群配置
  * @date 2020/11/616:04
  */
 @SpringBootApplication

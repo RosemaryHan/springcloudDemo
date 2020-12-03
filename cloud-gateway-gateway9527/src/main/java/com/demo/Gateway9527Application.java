@@ -8,7 +8,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * @author Rosemary
  * @title: Gateway9527Application
  * @projectName cloud2020
- * @description: TODO
+ * @description: 新网管配置
  * @date 2020/11/2617:06
  */
 @SpringBootApplication

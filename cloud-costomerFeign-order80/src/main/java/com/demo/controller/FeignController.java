@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
  * @author Rosemary
  * @title: FeignController
  * @projectName cloud2020
- * @description: TODO
+ * @description: 服务器熔断演示
  * @date 2020/11/1117:05
  */
 @RestController

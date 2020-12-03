@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
  * @author Rosemary
  * @title: PaymentService
  * @projectName cloud2020
- * @description: TODO
+ * @description: 服务熔断
  * @date 2020/11/310:07
  */
 public interface PaymentSoltService {

@@ -13,7 +13,6 @@ import javax.annotation.Resource;
  * @author Rosemary
  * @title: OrderController
  * @projectName cloud2020
- * @description: TODO
  * @date 2020/11/415:43
  */
 @RestController

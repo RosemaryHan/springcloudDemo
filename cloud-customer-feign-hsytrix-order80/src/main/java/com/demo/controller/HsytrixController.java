@@ -11,7 +11,7 @@ import javax.annotation.Resource;
  * @author Rosemary
  * @title: HsytrixController
  * @projectName cloud2020
- * @description: TODO
+ * @description: 负载均衡演示
  * @date 2020/11/1817:29
  */
 @RestController

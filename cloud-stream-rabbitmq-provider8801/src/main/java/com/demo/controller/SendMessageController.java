@@ -10,7 +10,7 @@ import javax.annotation.Resource;
  * @author Rosemary
  * @title: SendMessageController
  * @projectName cloud2020
- * @description: TODO
+ * @description: stream生产者演示
  * @date 2020/12/311:44
  */
 @RestController

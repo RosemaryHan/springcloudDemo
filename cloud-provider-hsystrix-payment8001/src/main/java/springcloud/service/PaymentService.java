@@ -7,7 +7,7 @@ import com.demo.entity.Payment;
  * @author Rosemary
  * @title: PaymentService
  * @projectName cloud2020
- * @description: TODO
+ * @description: 服务器熔断
  * @date 2020/11/310:07
  */
 public interface PaymentService {

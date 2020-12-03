@@ -8,7 +8,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * @author Rosemary
  * @title: CustomerZKApplication
  * @projectName cloud2020
- * @description: TODO
  * @date 2020/11/1014:44
  */
 @SpringBootApplication

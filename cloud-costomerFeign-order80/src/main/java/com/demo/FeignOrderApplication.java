@@ -8,7 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  * @author Rosemary
  * @title: FeignOrderApplication
  * @projectName cloud2020
- * @description: TODO
+ * @description: Feign配置
  * @date 2020/11/1116:39
  */
 @SpringBootApplication

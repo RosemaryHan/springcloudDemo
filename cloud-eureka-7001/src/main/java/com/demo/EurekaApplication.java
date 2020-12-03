@@ -8,7 +8,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  * @author Rosemary
  * @title: EurekaApplication
  * @projectName cloud2020
- * @description: TODO
+ * @description: Eureka
  * @date 2020/11/517:20
  */
 @SpringBootApplication

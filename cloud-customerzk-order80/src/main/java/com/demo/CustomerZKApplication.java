@@ -8,7 +8,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * @author Rosemary
  * @title: CustomerZKApplication
  * @projectName cloud2020
- * @description: TODO
+ * @description: 使用Zookeeper的案例
  * @date 2020/11/1014:44
  */
 @SpringBootApplication

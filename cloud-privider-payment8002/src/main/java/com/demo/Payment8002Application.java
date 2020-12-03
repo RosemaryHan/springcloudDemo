@@ -8,7 +8,6 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * @author Rosemary
  * @title: Payment8002Application
  * @projectName cloud2020
- * @description: TODO
  * @date 2020/11/616:04
  */
 @SpringBootApplication

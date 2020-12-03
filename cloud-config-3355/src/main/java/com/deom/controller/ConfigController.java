@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author Rosemary
  * @title: ConfigController
  * @projectName cloud2020
- * @description: TODO
+ * @description: Springcloud config运用
  * @date 2020/12/115:24
  */
 @RestController
