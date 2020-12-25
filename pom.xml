@@ -39,6 +39,7 @@
         <module>cloudalibaba-provider-payment9001</module>
         <module>cloud-alibaba-oder80</module>
         <module>cloudalibaba-config-nacos-client3377</module>
+        <module>cloudalibaba-sentinel8401</module>
     </modules>
     <name>cloud2020</name>
     <description>Demo project for Spring Boot</description>
